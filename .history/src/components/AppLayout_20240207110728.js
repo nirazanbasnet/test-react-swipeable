@@ -12,6 +12,7 @@ export default function AppLayout({ children }) {
 			window.addEventListener("resize", updateDocumentHeight);
 			updateDocumentHeight();
 
+			// Clean up the event listener when the component unmounts
 			return () => window.removeEventListener("resize", updateDocumentHeight);
 		}, []);
         

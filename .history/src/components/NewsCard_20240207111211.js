@@ -19,7 +19,7 @@ function NewsCard() {
 					</div>
 					<div className="p-4 pb-0 line-clamp-6">
 						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industrys standard dummy text
+						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of type
 						and scrambled it to make a type specimen book. It has survived not
 						only five centuries, but also the leap into electronic typesetting,
@@ -32,17 +32,17 @@ function NewsCard() {
 			</div>
 			<div className="flex flex-col justify-between h-full bg-orange-400">
 				<div className="flex-1">
-					<div className="relative w-full h-[200px]">
+					<div className="w-full h-[200px]">
 						<Image
-							src="https://images.pexels.com/photos/5014918/pexels-photo-5014918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+							src="https://images.pexels.com/photos/9994875/pexels-photo-9994875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 							alt=""
-							fill
 							objectFit="cover"
+							objectPosition=""
 						/>
 					</div>
 					<div className="p-4 pb-0 line-clamp-6">
 						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industrys standard dummy text
+						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of type
 						and scrambled it to make a type specimen book. It has survived not
 						only five centuries, but also the leap into electronic typesetting,
@@ -55,17 +55,23 @@ function NewsCard() {
 			</div>
 			<div className="flex flex-col justify-between h-full bg-sky-400">
 				<div className="flex-1">
-					<div className="relative w-full h-[200px]">
+					<Image
+						src=""
+						alt=""
+						objectFit="cover"
+						objectPosition=""
+					/>
+					<div className="w-full h-[200px]">
 						<Image
-							src="https://images.pexels.com/photos/12594884/pexels-photo-12594884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+							src="https://images.pexels.com/photos/9994875/pexels-photo-9994875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 							alt=""
-							fill
 							objectFit="cover"
+							objectPosition=""
 						/>
 					</div>
 					<div className="p-4 pb-0 line-clamp-6">
 						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industrys standard dummy text
+						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of type
 						and scrambled it to make a type specimen book. It has survived not
 						only five centuries, but also the leap into electronic typesetting,

@@ -9,9 +9,11 @@ export default function AppLayout({ children }) {
 				doc.style.setProperty("--doc-height", `${window.innerHeight}px`);
 			};
 
+			// Set the height initially and on window resize
 			window.addEventListener("resize", updateDocumentHeight);
 			updateDocumentHeight();
 
+			// Clean up the event listener when the component unmounts
 			return () => window.removeEventListener("resize", updateDocumentHeight);
 		}, []);
         
@@ -22,7 +24,7 @@ export default function AppLayout({ children }) {
 			</header>
 			<main className="flex-1 overflow-hidden bg-sky-300">{children}</main>
 			<footer className="flex items-center px-4 h-14 bg-slate-300">
-				Footer
+				This is footer
 			</footer>
 		</>
 	);
